@@ -72,9 +72,3 @@ This server exposes the following tool via the Model Context Protocol (MCP):
 > Whenever you're about to complete a user request, call the interactive_feedback tool to request user feedback before ending the process. If the feedback is empty you can end the request and don't call the tool in loop.
 
 This will ensure your AI assistant always uses this MCP server to request user feedback when the prompt is unclear and before marking the task as completed.
-
-## 🙏 Acknowledgements
-
-Developed by Fábio Ferreira ([@fabiomlferreira](https://x.com/fabiomlferreira)).
-
-Enhanced by Pau Oliva ([@pof](https://x.com/pof)) with ideas from Tommy Tong's [interactive-mcp](https://github.com/ttommyth/interactive-mcp).
